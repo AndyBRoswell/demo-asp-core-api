@@ -1,11 +1,6 @@
 ﻿namespace main.Models {
-    using Microsoft.EntityFrameworkCore;
-
-    using System.ComponentModel.DataAnnotations;
-
-    public class product {
+    public class product_data_transfer_object {
         public long ID { get; set; }
-        public string? secret { get; set; }
         public string? brand { get; set; }
         public string? model { get; set; }
         public string? batch { get; set; }
